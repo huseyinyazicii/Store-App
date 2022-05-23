@@ -1,0 +1,25 @@
+.link_item{
+    font-size: 18px;
+    transition: all ease 300ms;
+}
+
+.link_item:hover{
+    background-color: #C53030;
+    text-decoration: none;
+    color: #fff;
+}
+
+.icon{
+    background-color: #fff;
+}
+
+.seperator{
+    border-top: 1px solid #dedede;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.active{
+    background-color: #C53030;
+    text-decoration: none;
+    color: #fff;
+}

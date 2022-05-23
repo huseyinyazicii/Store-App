@@ -1,0 +1,14 @@
+.button{
+    width: 320px;
+}
+
+.container{
+    border: 1px solid #dedede;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media screen and (max-width : 576px) {
+    .button{
+        width: auto;
+    }
+}

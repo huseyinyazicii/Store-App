@@ -1,0 +1,50 @@
+.card{
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    display: flex;
+}
+
+.image{
+    width: 100px;
+    margin: 20px;
+}
+
+.body{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top div{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.top svg{
+    font-size: 20px;
+    transition: all ease 200ms;
+}
+
+.top svg:hover{
+    color: #c53030;
+}
+
+.title{
+    font-size: 22px;
+    font-weight: lighter;
+    color: #6c6c6c;
+}
+
+.price{
+    font-size: 22px;
+    font-weight: lighter;
+    color: #6c6c6c;
+}
